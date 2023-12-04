@@ -115,7 +115,7 @@ h2 {
     list-style: square;
 }
 
-.coding {
+pre {
     background-color: gainsboro;
     max-width: 60%;
     border: 1px solid black;
