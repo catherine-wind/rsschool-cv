@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <ul class="menu-list">
+            <li><a href="#skills-id" class="nav-link">Skills</a></li>
+            <li><a href="#code-examp" class="nav-link">Code example</a></li>
+            <li><a href="#exp" class="nav-link">Experience</a></li>
+            <li><a href="#edu" class="nav-link">Education</a></li>
+            <li><a href="#eng-lev" class="nav-link">English level</a></li>
+        </ul>
+    </div>
+</header>
+<div class="main-block">
+    <section class="main-info">
+        <div class="me">
+            <h1>Catherine Korobova</h1>
+            <div class="img-container">
+                <img src="./img/2023.jpg" alt="me">
+            </div>
+        </div>
+        <div class="contacts-block">
+            <h2>Contacts</h2>
+
+            <p>tel: <a class="number" href="tel:+375291066492">+37529&#8209;106&#8209;64&#8209;92</a></p>
+            <p>e&#8209;mail: <a href="mailto:catherinewind6@gmail.com" class="email">catherinewind6@gmail.com </a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/katerina-korobova/" class="liin"
+                            target="_blank">Katerina Korobova</a></p>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About me</h2>
+        <p>I'm 30 years old and I decided to change my life completely for enjoying my career.
+            I'm fond of web-development, and I'm going to do my best to get enough knowledge
+            to have my first IT-job.
+        </p>
+    </section>
+    <section class="skills" id="skills-id">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li class="skill-item">HTML</li>
+            <li class="skill-item">CSS</li>
+            <li class="skill-item">SASS/SCSS</li>
+            <li class="skill-item">JavaScript</li>
+            <li class="skill-item">Figma</li>
+        </ul>
+    </section>
+    <section class="code-sample" id="code-examp">
+        <h2>Code Example</h2>
+        <pre>
+            const btn = document.querySelector(".btn-toggle");
+            const theme = document.querySelector("#theme-link");
+            btn.addEventListener("click", function() {
+                if (theme.getAttribute("href") == "light-theme.css") {
+                    theme.href = "style.css";
+                } else {
+                    theme.href = "light-theme.css";
+                }
+            });
+        </pre>
+
+    </section>
+    <section class="experience" id="exp">
+        <h2>Experience</h2>
+        <p>I haven't got any commercial experience, but there's a projects from FE Stage 0:
+            <br>
+            <a href="https://catherine-wind.github.io/plants/" class="project">Plants</a>
+        </p>
+    </section>
+    <section class="education" id="edu">
+        <h2>Education</h2>
+        <div class="ed-block">
+            <div class="ed1">
+                <span>Minsk State Linguistic University</span><br>
+                <span class="sp1">2010-2015</span><br>
+                English Teacher
+            </div>
+            <div class="ed2">
+                <span>Institute of IT and Business Administration</span><br>
+                <span class="sp1">2016-2018</span><br>
+                Programmer
+            </div>
+        </div>
+
+    </section>
+    <section class="eng" id="eng-lev">
+        <h2>English Level</h2>
+        <p>Main subject of study in the university, but I had a lack of practice for a couple of years
+            during maternity leave and while working with juniors at school.</p>
+    </section>
+</div>
+<footer>
+    <div class="connect">
+        <a class="number" href="tel:+375291066492">+37529&#8209;106&#8209;64&#8209;92</a>
+    </div>
+</footer>
+</body>
+</html>
