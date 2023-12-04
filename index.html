@@ -30,16 +30,68 @@
         </div>
     </section>
     <section class="about">
-
+        <h2>About me</h2>
+        <p>I'm 30 years old and I decided to change my life completely for enjoying my career.
+            I'm fond of web-development, and I'm going to do my best to get enough knowledge
+            to have my first IT-job.
+        </p>
     </section>
-    <section class="skills" id="skills-id"></section>
-    <section class="code-sample" id="code-examp"></section>
-    <section class="experience" id="exp"></section>
-    <section class="education" id="edu"></section>
-    <section class="eng" id="eng-lev"></section>
+    <section class="skills" id="skills-id">
+        <h2>Skills</h2>
+        <ul class="skill-list">
+            <li class="skill-item">HTML</li>
+            <li class="skill-item">CSS</li>
+            <li class="skill-item">SASS/SCSS</li>
+            <li class="skill-item">JavaScript</li>
+            <li class="skill-item">Figma</li>
+        </ul>
+    </section>
+    <section class="code-sample" id="code-examp">
+        <h2>Code Example</h2>
+        <code>
+            <pre>
+            const btn = document.querySelector(".btn-toggle");
+            const theme = document.querySelector("#theme-link");
+            btn.addEventListener("click", function() {
+                if (theme.getAttribute("href") == "light-theme.css") {
+                    theme.href = "style.css";
+                } else {
+                    theme.href = "light-theme.css";
+                }
+            });
+        </pre>
+        </code>
+    </section>
+    <section class="experience" id="exp">
+        <h2>Experience</h2>
+        <p>I haven't got any commercial experience, but there's a projects from FE Stage 0:
+            <br/>
+            <a href="https://catherine-wind.github.io/plants/" class="project">Plants</a>
+        </p>
+    </section>
+    <section class="education" id="edu">
+        <h2>Education</h2>
+        <div class="ed1">
+            <span>Minsk State Linguistic University</span><br/>
+            2010-2015<br/>
+            English Teacher
+        </div>
+        <div class="ed2">
+            <span>Institute of IT and Business Administration</span><br/>
+            2016-2018<br/>
+            Programmer
+        </div>
+    </section>
+    <section class="eng" id="eng-lev">
+        <h2>English Level</h2>
+        <p>Main subject of study in the university, but I had a lack of practice for a couple of years
+            during maternity leave and while working with juniors at school.</p>
+    </section>
 </div>
 <footer>
-    <div class="connect"></div>
+    <div class="connect">
+
+    </div>
 </footer>
 </body>
 </html>

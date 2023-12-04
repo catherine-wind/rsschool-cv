@@ -15,7 +15,6 @@ I'm 30 years old and I decided to change my life completely for enjoying my care
 - CSS
 - Preprocessor SCSS
 - Javascript
-- DOM-manipulations
 - Figma (basic)
 
 ## Code
@@ -36,7 +35,7 @@ btn.addEventListener("click", function() {
 
 I haven't got any commercial experience, but there's a projects from FE Stage 0:
 <br/>
-[Plants](https://catherine-wind.github.io/plants/) - non-responsive
+[Plants](https://catherine-wind.github.io/plants/) 
 ## Education
 
 - #### Minsk State Linguistic University
